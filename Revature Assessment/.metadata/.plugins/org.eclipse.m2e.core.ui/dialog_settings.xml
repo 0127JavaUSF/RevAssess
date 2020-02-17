@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Revature Bootcamp\Revature Assessment"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="C:\Revature Bootcamp\Revature Assessment"/>
@@ -26,13 +39,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.assessment.revature.RevAssess"/>
+			<item value="com.assessment.revature.Tier1"/>
 		</list>
 		<list key="groupId">
 			<item value="com.assessment.revature"/>
 		</list>
 		<list key="artifactId">
-			<item value="RevAssess"/>
+			<item value="Tier1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
