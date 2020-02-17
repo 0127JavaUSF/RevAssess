@@ -4,7 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import utils.Computation;
+import com.revature.utils.Computation;
 public class Launcher {
 
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Launcher {
 		System.out.println("Sum of the result of the individual integers raised to the "
 				+ "power of the length equal to "
 				+ "original passed number is?: " + Computation.powerOfLength(1));
-		try(Connection connection = utils.ConnectionUtil.getConnection()){
+		try(Connection connection = com.revature.utils.ConnectionUtil.getConnection()){
 			String sql = "SELECT * FROM bank_accounts";
 			PreparedStatement ps = connection.prepareStatement(sql);
 			ResultSet rs = ps.executeQuery();
