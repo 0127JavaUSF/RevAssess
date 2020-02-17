@@ -1,0 +1,22 @@
+package com.assessment.revature.RevAssess;
+
+public class User {
+	private int id = 0;
+	private String firstName = "";
+	private String lastName = "";
+	private String username = "";
+	private String password = "";
+	private String role = "";
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public void displayUser(int id, String firstName, String lastName, String username, String password, String role) {
+		
+	}
+
+}

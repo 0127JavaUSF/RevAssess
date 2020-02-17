@@ -1,0 +1,49 @@
+package com.assessment.revature.RevAssess;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+	static int someArray[] = {1, 2, 3, 4}; 
+	public static void main(String[] args) {
+		//Obj for letter b requirement
+		User user = new User(0, "Esu", "Obu", "eobu", "eobu111", "programmer");
+		
+		//Test for letter b
+		System.out.println(user);
+		//Test for letter c
+		System.out.println("The sum of the array is " + sumOfArray(someArray));
+		//Test for letter d
+		//xponential(0, 0);
+		System.out.println("The number length of the entries " + "raised to the 2nd power is " + exponential());
+		
+		
+	}
+	
+	//Method for letter c
+	public static int sumOfArray(int[] someArray){	
+		return Arrays.stream(someArray).sum();
+	}
+	
+	//Method for letter d requirement
+	public static double exponential() {
+		Scanner sc = new Scanner(System.in);
+		double length = 0;
+		while (sc.hasNext() == true) {
+			
+			System.out.println("Enter a number: ");
+			double num = sc.nextInt();
+			double power = Math.pow(num, 2);
+			length += power;
+			break;
+		}	
+		return length;
+		
+		
+	}
+	
+	
+	
+	
+}

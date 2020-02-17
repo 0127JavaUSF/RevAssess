@@ -1,0 +1,44 @@
+package com.assessment.revature.RevAssess;
+
+public class User {
+	private static int id = 0;
+	private static String firstName = "";
+	private static String lastName = "";
+	private static String username = "";
+	private static String password = "";
+	private static String role = "";
+	
+	public static void main(String[] args) {
+		User user = new User();
+		System.out.println(user);
+		
+	}
+	public User() {
+		id = 4;
+		firstName = "Esu";
+		lastName = "Obu";
+		username = "eobu";
+		password = "eobu111";
+		role = "programmer";
+		
+	}
+	
+	public User(int id, String firstName, String lastName, String username, String password, String role) {
+		super();
+		User.id = id;
+		User.firstName = firstName;
+		User.lastName = lastName;
+		User.username = username;
+		User.password = password;
+		User.role = role;
+	}
+
+
+	
+	public void displayUser(int id, String firstName, String lastName, String username, String password, String role) {
+		System.out.println("User id: " + id + ", full name: " + firstName + " " + lastName + ", username: "
+				+ username + "password: " + password + "role: " + role);
+		
+	}
+
+}
