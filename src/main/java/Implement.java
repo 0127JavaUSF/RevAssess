@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Implement {
 
     public static int sumArray(){
@@ -28,7 +30,11 @@ public class Implement {
 
     public static void main(String[] args) {
         int sum = sumArray();
-        int x = checkthenumber(20);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number you want: ");
+        int number = scanner.nextInt();
+        int x = checkthenumber(number);
 
         System.out.println("The sumation of array function: " + sum);
 
