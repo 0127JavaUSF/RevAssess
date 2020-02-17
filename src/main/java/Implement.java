@@ -30,8 +30,8 @@ public class Implement {
         int sum = sumArray();
         int x = checkthenumber(20);
 
-        System.out.println(sum);
+        System.out.println("The sumation of array function: " + sum);
 
-        System.out.println(x);
+        System.out.println("The power of a number: "+ x);
     }
 }
