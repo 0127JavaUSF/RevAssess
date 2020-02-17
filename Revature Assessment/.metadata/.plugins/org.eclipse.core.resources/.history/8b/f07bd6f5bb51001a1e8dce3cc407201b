@@ -1,0 +1,18 @@
+package com.assessment.revature.RevAssess;
+
+public class Main {
+
+	public static void main(String[] args) {
+		User user = new User(0, "Esu", "Obu", "eobu", "eobu111", "programmer");
+		System.out.println(user);
+
+	}
+
+//	
+//	public void displayUser(int id, String firstName, String lastName, String username, String password, String role) {
+//		System.out.println("User id: " + id + ", full name: " + firstName + " " + lastName + ", username: "
+//				+ username + "password: " + password + "role: " + role);
+//		
+//	}
+//	
+}

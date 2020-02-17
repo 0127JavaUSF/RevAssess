@@ -1,0 +1,23 @@
+package com.assessment.revature.RevAssess;
+
+public class Main {
+
+	int someArray[] = {1, 2, 3, 4}; 
+	
+	public static void main(String[] args) {
+		User user = new User(0, "Esu", "Obu", "eobu", "eobu111", "programmer");
+		System.out.println(user);
+	
+		System.out.println();
+	}
+	
+	public void sumOfArray(int someArray){
+		int sum = 0; 
+		for (int i = 0; i < 3; i++) {
+			sum += i;
+			System.out.println("The sum of the array = " + sum);
+		}
+		
+	}	
+	
+}

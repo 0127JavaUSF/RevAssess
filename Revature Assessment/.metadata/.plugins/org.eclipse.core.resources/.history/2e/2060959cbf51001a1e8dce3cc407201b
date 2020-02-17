@@ -1,0 +1,26 @@
+package com.assessment.revature.RevAssess;
+
+import java.util.Arrays;
+
+public class Main {
+
+	static int someArray[] = {1, 2, 3, 4}; 
+	
+	public static void main(String[] args) {
+		User user = new User(0, "Esu", "Obu", "eobu", "eobu111", "programmer");
+		System.out.println(user);
+	
+		System.out.println("The sum of the array " + someArray + " is " + sumOfArray(someArray));
+	}
+	
+	public static int sumOfArray(int[] someArray){
+//		int sum = 0; 
+//		for (int i:someArray) {
+//			sum += i;
+//			return sum;
+//		}
+		
+		return Arrays.stream(someArray).sum();
+	}	
+	
+}

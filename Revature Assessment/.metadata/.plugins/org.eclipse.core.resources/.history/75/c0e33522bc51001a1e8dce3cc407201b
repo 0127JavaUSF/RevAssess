@@ -1,0 +1,19 @@
+package com.assessment.revature.RevAssess;
+
+public class Main {
+
+	int someArray[]; 
+	
+	public static void main(String[] args) {
+		User user = new User(0, "Esu", "Obu", "eobu", "eobu111", "programmer");
+		System.out.println(user);
+	
+		
+	}
+	
+	public <Array> sumOfArray(int ){
+		
+	}
+	
+	
+}
